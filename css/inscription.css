@@ -1,0 +1,133 @@
+.bd-header{
+    background-color: #1D1C19;
+    width: 100vw;
+    height: 20vh;
+}
+.bd-header img{
+    margin-top: -35vh;
+    height: 60px;
+}
+ h1{
+     color: #CA2519;
+     font-family: Lucida Calligraphy;
+     font-size: 60px;
+     margin-left: 35%;
+  }
+
+  p{
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12.5px;
+      margin-left: 51%;
+      margin-top: -2%;
+  }
+
+  input{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  form{
+      text-align: center;
+  }
+  .form-reg{
+    padding: 6%;
+    margin-top: -8vh;
+  }
+  .fm{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 6vh;
+  }
+
+  .in-reg {
+    border: none;
+    border-bottom: outset ;
+    width: 25rem;
+  }
+
+  .btn-submit{
+      margin-top: -4vh;
+      font-family: 'Montserrat', sans-serif;
+      width: 7rem;
+      height: 3rem;
+      color: white;
+      background-color: black;
+      border-radius: 5px;
+      border: none;
+  }
+
+
+
+
+/*  responsive mode tablette -------------------------------------*/
+
+@media screen and (max-width: 1200px){
+ 
+    p{
+        font-size: 11px;
+        margin-left: 59%;
+        margin-top: -2.5%;
+    }
+
+
+
+    .in-reg{
+        width: 19rem;
+      }
+
+      .btn-submit{
+        margin-top:2vh;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  responsive  mode phone :----------------------------------- */
+@media screen and (max-width: 800px) {
+    h1{
+      font-size: 33px;
+      margin-top: 10px;
+      margin-left: 31%;
+  }
+  
+   
+  p{
+    font-size: 9.5px;
+    margin-left: 265px;
+    margin-top: -3.5%;
+  }
+
+  .in-reg{
+    width: 10rem;
+  }
+
+.form-reg{
+    margin-top: -3vh;
+}
+
+.btn-submit{
+    margin-top: 7vh;
+}
+
+.bd-header img {
+    margin-top: -27.5vh;
+    height: 60px;
+}
+
+
+}
+
+
+

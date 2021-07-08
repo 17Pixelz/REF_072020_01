@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+}
+.produit img{
+    width: 61px;
+    height: 51px;
+    margin-bottom: -10px;
+}
+
+.produit h6{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+}
+
+
+
+input{
+    width: 111px;
+    height: 31px;
+}
+
+.titleP{
+    margin-top: 2%;
+}
+.titleP h4{
+    color: #CA2519;
+    margin-top: 12px;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif; 
+}
+.miseajour{
+    text-align: center;
+}
+.btn-submit{
+    margin-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 25rem;
+    height: 3rem;
+    margin-top: 20px;
+    color: white;
+    background-color:#CA2519;
+    border-radius: 1px;
+    border: none;
+}
+
+tbody{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+}
+
+.grp-this{
+    display: flex;
+    grid-template: row;
+}
+
+ .nav2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    } 
+
+     .nav2 a {
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 5px solid #CA2519;
+    padding-bottom: 5px;
+
+    } 
+    .activenav{
+        color:black;
+        border-bottom: 5px solid black;
+     }
+     a{
+         color:black;
+     } 
+
+td .material-icons{
+    margin-left: 30px;
+}
+
+
+  /* responsive categorie a gauche --------------------------------*/ 
+
+  /* @media screen and (max-width: 800px){ */
+     
+    /* .btn-submit{
+        width: 17rem;
+        height: 3rem;
+        margin-left: 39%;
+    } */
+
+   
+    /* .produit img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+
+    .produit h6{
+        font-size: 9px;
+        margin-top: -22%;
+        margin-left: 27%;
+    }
+
+   .grp-this{
+       display: flex;
+   }
+
+} */
+
+
+  

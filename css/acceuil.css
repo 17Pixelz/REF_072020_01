@@ -1,0 +1,168 @@
+body{
+    overflow-x: hidden;
+}
+.general-body{
+    display: flex;
+}
+
+.text-home{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.text-home h2{
+    color: #CA2519;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Lucida Calligraphy;
+}
+
+.text-home p{
+    color: #1D1C19;
+    margin-top: 8%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-home{
+    width: 10px;
+    
+    animation: rotation  6s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        margin-left: 2%;
+        
+    }
+    50% {
+        margin-left: 12%;
+    }
+    100% {
+        margin-left: 2%;
+    }
+  
+  }
+
+
+.btn-submit{
+    margin-top: 4vh;
+    margin-left: 25%;
+    font-family: 'Montserrat', sans-serif;
+    width: 14rem;
+    height: 3rem;
+    color: white;
+    background-color: #CA2519;
+    border-radius: 7px;
+    border: none;
+}
+
+
+.groupe-image{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.1%;
+}
+
+.groupe-body{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+
+}
+
+.single-img img{
+    width: 40vh;
+    margin-top: -1%;
+    margin-left: 5%;
+}
+
+
+.img1{
+    width: 150px;
+}
+
+.img2{
+    width: 150px;
+    margin-top: 3%; 
+}
+
+.left-grp h2{
+    color: #CA2519;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+    margin-top: 10%;
+}
+ .ligne{ 
+    border-bottom: 1px solid; 
+    width: 300px; 
+    height: 2px;
+    margin-left: 30%;
+
+    background-color: #CA2519;
+} 
+
+.left-grp p{
+    margin-left: 150px;
+    margin-top: 4%;
+}
+
+.left-grp{
+    margin-left: -10%;
+    margin-top: 10%;
+}
+
+
+.GENERAL-body{
+   margin-left: 7%;
+}
+
+.bd-BODY{
+margin-top: 5%;
+background-color: #1D1C19;
+height: 35vh;
+margin-left: -160px;
+}
+
+.img-donner img{
+    width: 90vh;
+    height: 176px;
+    margin-left: 38%;
+    margin-top: 4%;
+}
+
+.grouper-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-dt h2{
+    color: #CA2519;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+}
+
+.text-dt p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+} 
+
+.text-dt{
+margin-left: 15%;
+margin-top: 3%;
+}
+
+.titre-card h2{
+    color: #CA2519;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.produit{
+    border-radius: 20px;
+    border: 1px solid #CA2519;
+    box-shadow: 0 0 5px;
+    height:100%;
+    width: 70%;
+}

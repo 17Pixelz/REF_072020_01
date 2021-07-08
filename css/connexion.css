@@ -1,0 +1,229 @@
+.bg-side{
+    background-color: #1D1C19;
+    width: 23vw;
+    height: 100vh;
+  }
+
+  .login{
+    display: flex;
+  }
+
+  h3{
+    color: #CA2519;
+    font-family: Lucida Calligraphy;
+    font-size: 45px;
+    margin-left: 2vw;
+    margin-top: 46vh;
+    
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    margin-left: 55%;
+    margin-top: -3%;
+  }
+  .bg-side img{
+    margin-top: -11vh;
+    height: 63px;
+    margin-left: 47%;
+    
+  }
+
+  .form-reg{
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+
+  form .btn-submit{
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .form-reg{
+    padding: 6%;
+    margin-top: 7vh;
+    text-align: center;
+
+  }
+
+  h2{
+    color: #CA2519;
+    font-family: Lucida Calligraphy;
+    font-size: 60px;
+    margin-top: -10%;
+    margin-left: 28%;
+ }
+ 
+ .in-reg {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: outset ;
+    width: 25rem;
+    margin-bottom: 6vh;
+    margin-left: -98%;
+    MARGIN-TOP: -1%;
+}
+  
+  
+
+ .btn-submit{
+    margin-top: 9vh;
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    margin-left: 23%;
+}
+
+.general{
+    margin-top: 12%;
+    margin-bottom: 4vh;
+    margin-left: 20%;
+}
+
+.insr{
+ margin-top: 40%;
+ right: 0;
+}
+
+.reg-now {
+    margin-left: -35%;
+    font-size: 17px;
+}
+
+a{
+    color:#CA2519;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fm-1{
+    margin-top: 20px;
+    display: inline-flex;
+}
+.fm-2{
+  margin-top: 20px;
+  display: inline-flex;
+}
+.fm-1 .material-icons{
+  margin-right: 100%;
+  margin-top: 3px;
+}
+
+.fm-2 .material-icons{
+  margin-right: 100%;
+  margin-top:2px;
+}
+
+
+/*  responsive mode tablette -------------------------------------*/
+
+@media screen and (max-width: 1200px){
+
+  .general{
+    margin-top: 19%;
+    margin-bottom: 6vh;
+    margin-left: -1%;
+  
+  }
+
+  h3{
+    margin-left: 5%;
+    font-size: 30px;
+
+  
+  }
+
+  .bg-side img{
+    margin-top: -9vh;
+    height: 48px;
+    margin-left: 40%;
+}
+
+.reg-now{
+  margin-left: -120%;
+  font-size: 13px;
+  margin-top: 170%
+}
+
+
+
+.bg-side {
+  width: 30vw;
+}
+
+}
+
+
+
+
+
+/*  responsive  mode phone :----------------------------------- */
+@media screen and (max-width: 480px) {
+
+  body{
+    overflow: hidden;
+  }
+  .bg-side {
+    width: 25vw;
+    height: 107vh;
+}
+
+h2{
+  font-size: 39px;
+  margin-top: -11%;
+  margin-left: 14%;
+}
+
+p{
+  font-size: 10.5px;
+  margin-left: 17%;
+  margin-top: -4%;
+}
+
+
+.general{
+  margin-top: 19%;
+  margin-bottom: 6vh;
+  margin-left: -1%;
+
+}
+
+h3{
+  font-size: 23px;
+  margin-right: 31px;
+  margin-top: 43vh;
+
+}
+
+.bg-side img{
+     margin-top: -9vh;
+    height: 43px;
+    margin-left: 33%;
+}
+
+.in-reg{
+  width: 250px;
+  margin-bottom: 8vh;
+  margin-left: -99%;
+}
+
+
+.reg-now{
+  margin-left: -319%;
+  font-size: 13px;
+  margin-top: 502%;
+
+}
+
+form .btn-submit{
+  margin-top: -1vh;
+  margin-left: 2%;
+}
+
+
+
+}

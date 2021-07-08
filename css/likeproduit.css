@@ -1,0 +1,22 @@
+body{
+    overflow-x: hidden;
+}
+.produit img{
+    width: 61px;
+    height: 51px;
+    margin-bottom: -10px;
+}
+
+.produit h6{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+}
+
+.number{
+    width: 70px;
+}
+
+.TITRE h3{
+    color: black;
+    margin-left: 10px;
+}

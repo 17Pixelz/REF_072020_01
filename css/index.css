@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+/* .session1{
+    background-color: #1D1C19;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.left{
+    /* background-color: white;
+    width: 50vw;
+    height: 100vh;
+    margin-left: -10vw;
+    border-radius: 0px 100% 100% 0px; */
+    background-color: white;
+    width: 50vw;
+    height: 100vh;
+    margin-left: -9vw;
+    border-radius: 0px 47% 54% 0px;
+    height: 111vh;
+    margin-top: -6rem;
+}
+
+ 
+.logo{
+     margin-top: 10px; 
+    margin-left: 20px; 
+    width: 150px;
+}
+ul{
+    
+    float: right;
+    margin-right: 20%;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+li a{
+    color: rgb(209, 0, 0);
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header img {
+    width: 80px;
+    height: 55px;
+    margin-top: 6rem;
+    margin-left: 1.5%;
+  
+  }
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+    margin-left: -67%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 20;
+  
+  
+  }
+  
+  header li {
+    float: left;
+  }
+   
+  header li a, .dropbtn {
+    display: inline-block;
+    color: rgb(231, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header li a:hover, .dropdown:hover .dropbtn {
+    color:#CA2519;
+  }
+  
+  header li.dropdown {
+    display: inline-block;
+  }
+  
+  header .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 18;
+  }
+  
+  header .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  header .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  header .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  header .nav-icone {
+    float:right;
+   }
+  
+   .gift-img {
+        margin-left: 47rem;
+        margin-top: -32rem;
+        width: 24rem;
+   }
+
+   .z{
+       background-color: white;
+       margin-top: -4vh;
+   }
+
+   .nav-content {
+    margin-top: -18vh;
+   }

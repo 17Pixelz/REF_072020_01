@@ -1,0 +1,160 @@
+/* .general-div{
+    height: 500px;
+    width: 70%;
+    margin: 14% auto;
+    margin-left: 15%;
+    margin-top: 21px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgb(37, 36, 36); 
+ }
+
+ .img-body img{
+     margin-top: 6%;
+ }
+
+ .title-body h2{
+     color:#CA2519;
+     font-size: 30px;
+     margin-top: 10px;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .groupe-div{
+     display: flex;
+ }
+ .title1-body h6{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -47%;
+    text-decoration: underline;
+    margin-left: -170px
+ }
+
+ .title1-body p{
+     margin-left: 35%;
+ }
+
+ .title1-body{
+     margin-top: 3%;
+ }
+
+ .title1-body h2{
+    margin-left: 50%;
+    color:#CA2519;
+} */
+
+body{
+    left: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.boutton{
+    text-decoration: none;
+    background-color: #CA2519;
+   
+}
+
+.fs-3{
+    color: #CA2519;
+}
+
+.color2  {
+    color:black;
+    font-weight: 650;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fs-1{
+    color:#CA2519 ;
+}
+
+a:hover{
+    color:#CA2519;
+}
+
+button:hover{
+    background-color: white;
+    box-shadow: 0 0 5px;
+}
+
+.img-hover:hover{
+ width: 400px;
+}
+
+.boutton{
+    width: 380px;
+}
+
+
+.produit {
+    margin: 18px;
+    width: 220px;
+    height: 309px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+ }
+  
+  .produit img {
+    width: 70%;
+    height: 53%;
+  }
+
+   .produit label {
+    font-size: 12.5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+   .produit .voir {
+    background-color: #CA2519;
+    border-radius: 0px;
+    color: #FFFFFF;
+    width: 110px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+   .produit .heart {
+    background-color: #CA2519;
+    color: #FFFFFF;
+    border-radius: 0px;
+    font-size: 15px;
+  }
+
+  .produit .panier{
+    background-color: #CA2519;
+    color: #FFFFFF;
+    border-radius: 0px;
+    font-size: 15px;
+  }
+  h5{
+    color: #CA2519; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.25rem;
+  }
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: 1.25rem;
+}
+
+.CL{
+    color:#CA2519;  
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Lucida Calligraphy;
+}
+
+.container-fluid {
+    padding-left: 0vh;
+}
