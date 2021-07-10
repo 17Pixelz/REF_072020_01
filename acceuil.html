@@ -61,7 +61,7 @@
           </div>
         </form>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="fa fa-bars"></span> Menu
+	        <span class="fa fa-bars text-white"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
@@ -85,24 +85,24 @@
 </header>
 
 <div class="content mt-5">
-<div class="row">
-    <div class="text-home text-center col-lg-6 col-md-12 mt-5 ">
+<div class="row" id="container1">
+    <div class="text-home text-center col-lg-6 col-md-12 mt-5 " id="div1">
           <h2>Hadaya By Loubna</h2>
           <p>Meilleur cadeaux pour n'importe quel evenement <br> avec un prix resonnable et une très belle qualité<br> bon service avec un prix resonnable de livraison </p>
           <button name="submit" class="btn btn-primary" style="background-color: #CA2519;">Voir plus <a href=""></a></button>
      </div>
 
-     <div class="img-home col-lg-5 col-md-12 text-center">
+     <div class="img-home col-lg-5 col-md-12 text-center" id="div2">
          <img src="img/homegift.png" style="width: 320px;" alt="">
      </div>
 </div>
-<div class="row mt-2">
-  <div class="image-container text-center col-lg-5">
+<div class="row mt-2" id="container2">
+  <div class="image-container text-center col-lg-5" id="div3">
         <img class="img" src="img/photo3.png" style="width: 300px;" alt="">
   </div>
-  <div class="left-grp text-center col-lg-7"> 
+  <div class="left-grp text-center col-lg-7" id="div4"> 
     <h2> Souvenir </h2>
-    <div class=""></div>
+    <div></div>
     <p>Quidem supplicio haud autem quis
      quidem amicum excusatione <br>haud 
      mortem coepit concessum  mortem
@@ -143,7 +143,7 @@
 <h2>Nos évenements </h2>
 </div>
 
-<div class="container-fluid py-4 ">
+<div class="container-fluid ">
     <div class="row  ms-lg-0  ms-5 ms-md-5 justify-content-center d-flex">
 
   <div class="col-lg-3 col-md-6 col-sm-12 ">
@@ -186,31 +186,32 @@
        </div>
   </div>
 </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-
-
-
-    
 </body>
 </html>
+<script>
+  $(document).ready(function(){
+    $(window).resize(function(){
+      var div3content = document.getElementById('div3').innerHTML;
+      var div4content = document.getElementById('div4').innerHTML;
+      var w = $(window).width();
+      if(w < 992){
+        $("#div3").empty();
+        $("#div4").empty();
+        $("#div3").append(div4content);
+        $("#div4").append(div3content);
+    }
+    else{
+      $("#div3").empty();
+        $("#div4").empty();
+        $("#div3").append(div3content);
+        $("#div4").append(div4content);
+    }
+    });
+    
+});
+</script>
