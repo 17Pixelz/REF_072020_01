@@ -68,9 +68,9 @@
     </header>
 
 
-    <div class="container">
+    <div class="container ">
         <h1>Panier (1 Article)</h1>
-        <div class="row">
+        <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-10 col-md-offset-1">
                 <table class="table table-hover">
                     <thead>
@@ -86,39 +86,47 @@
                         <tr>
                             <td class="col-sm-8 col-md-6">
                                 <div class="media">
-                                    <a class="thumbnail pull-left" href="#"> <img class="media-object"
-                                            src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png"
-                                            style="width: 72px; height: 72px;"> </a>
+                                    <a class="thumbnail pull-left m-2" href="#"> 
+                                        <img class="media-object"
+                                            src="img/gormet.jpg"
+                                            style="width: 50px; height: 50px;"> </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                        <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
-                                        <span>Status: </span><span class="text-success"><strong>In Stock</strong></span>
+                                        <h5 class="media-heading"><a href="#">Bracelet en or</a></h4>
                                     </div>
                                 </div>
                             </td>
                             <td class="col-sm-1 col-md-1" style="text-align: center">
-                                <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                                <select class="form-select" name="qte" id="qte">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
                             </td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
+                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
                             <td class="col-sm-1 col-md-1">
                                 <button type="button" class="btn btn-danger">
-                                    <span class="glyphicon glyphicon-remove"></span> Remove
+                                    <i class="fa fa-trash-o"></i>
                                 </button></td>
                         </tr>
                     </tbody>
                 </table>
 
                 <div class="row">
+                    <div class="col"></div>
                     <div class="col">
-                        <h2>Total : <span class="strong">250 DH</span></h2>
+                        <h2>Total : <span class="strong">600 DH</span></h2>
                     </div>
+                </div>
+                <div class="row text-right">
                     <div class="col">
-                        <button type="button" class="btn btn-light">
-                            <span class="glyphicon glyphicon-shopping-cart"></span> POURSUIVRE VOS ACHATS
+                        <button type="button" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-shopping-cart">POURSUIVRE VOS ACHATS</span> 
                         </button>
                         <button type="button" class="btn btn-success">
-                            Checkout <span class="glyphicon glyphicon-play"></span>
+                            <span class="glyphicon glyphicon-play">Checkout</span>
                         </button>
                     </div>
                 </div>
@@ -128,13 +136,13 @@
 
 
     <div class="mt-5 pt-5 pb-5 footer">
-        <div class="container justify-content-center">
-            <div class="row justify-content-center">
+            <div class="row text-center">
                 <div class="col-lg-5 col-xs-12 about-company">
                     <img src="img/footerlogo.png" alt="LOGO FOOTER">
-                    <p class="pr-5 text-white-50">Hadaya est un site e-commerce qui vent les cadeaux selon les différentes événements il facilite au client le choix de choisir le bon cadeau avec bon prix</p>
+                    <p class="pr-5 text-white-50">Hadaya est un site e-commerce qui vent les cadeaux selon les
+                        différentes événements il facilite au client le choix de choisir le bon cadeau avec bon prix</p>
                 </div>
-                <div class="col-lg-3 col-xs-12 links">
+                <div class="col-lg-2 col-xs-12 links">
                     <h4 class="mt-lg-0 mt-sm-3 text-light">Produits</h4>
                     <ul class="m-0 p-0">
                         <li>- <a href="#">Chocolat</a></li>
@@ -143,7 +151,7 @@
                         <li>- <a href="#">Assecoires</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-xs-12 links">
+                <div class="col-lg-2 col-xs-12 links">
                     <h4 class="mt-lg-0 mt-sm-3 text-light">Pages</h4>
                     <ul class="m-0 p-0">
                         <li>- <a href="#">Acceuil</a></li>
@@ -152,22 +160,21 @@
                         <li>- <a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-xs-12 location">
+                <div class="col-lg-2 col-xs-12 location">
                     <h4 class="mt-lg-0 mt-sm-4 text-light">Contact</h4>
                     <ul class="list-unstyled">
-                        <li> <i class="fas fa-phone-square-alt pic"></i> +212 6 06 07 08 09</li>
-                        <li><i class="fab fa-facebook-square pic"></i> Hadaya By Loubna</li>
-                        <li><i class="fab fa-instagram-square pic"></i> Hadaya-ByLoubna</li>
-                        <li><i class="fas fa-envelope-square pic"></i> HADAYA@gmail.com</li>
+                        <li><i class="fas fa-phone-square-alt pic mr-2"></i> +212 6 06 07 08 09</li>
+                        <li><i class="fab fa-facebook-square pic mr-2"></i> Hadaya By Loubna</li>
+                        <li><i class="fab fa-instagram-square pic mr-2"></i> Hadaya-ByLoubna</li>
+                        <li><i class="fas fa-envelope-square pic mr-2"></i> HADAYA@gmail.com</li>
                     </ul>
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col copyright">
+                <div class="col copyright text-center">
                     <p class=""><small class="text-white-50">© 2021. Copyright © Hadaya by Loubna.</small></p>
                 </div>
             </div>
-        </div>
     </div>
 
     <script src="js/jquery.min.js"></script>
