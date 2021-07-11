@@ -54,10 +54,7 @@
       width: 30vw;
   }
  
-  .filtre-genre{
-      margin-top: 37px;   
-      margin-left: 25px;
-  }
+
   
   h6{
       color: #CA2519;
@@ -71,26 +68,20 @@
       font-family: 'Montserrat', sans-serif;
   }
   
-  .filtre-categorie{
-      margin-top: 37px;
-      margin-left: 25px;
-  }
-  .filtre-prix{
-     margin-top: 37px;   
-     margin-left: 25px;
-  }
+  
+  
+  
   
   
   .page-produits{
-      margin-top: -38.5%;
-      margin-left: 17%;
+
       display: grid;
       grid-template-columns: auto auto auto auto;
       justify-content: center;
     }
   
      .produit {
-      margin: 18px;
+
       width: 220px;
       height: 309px;
       background-color: #FFFFFF;
@@ -190,10 +181,11 @@
   }
   
   .page-produits{
-    margin-top: -92%;
-    margin-left:36%;
+
     display: grid;
-    grid-template-columns: auto ;
+
+
+
     justify-content: center;
   }
   
