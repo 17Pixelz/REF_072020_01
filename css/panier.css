@@ -1,5 +1,6 @@
-body {
+body, html {
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .produit img {
@@ -118,6 +119,10 @@ td .material-icons {
 }
 
 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 
 
 /* responsive categorie a gauche --------------------------------*/
