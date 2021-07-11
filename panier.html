@@ -68,92 +68,134 @@
     </header>
 
 
-    <div class="p-5 ">
-        <h1>Panier (1 Article)</h1>
+    <div class="p-5">
+        <h1 class="h3">Panier (1 Article)</h1>
         <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-10 col-md-offset-1">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th>ARTICLE</th>
-                            <th>QUANTITÉ</th>
-                            <th class="text-center">PRIX UNITAIRE</th>
-                            <th class="text-center">SOUS-TOTAL</th>
-                            <th> </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="col-sm-8 col-md-6">
-                                <div class="media">
-                                    <a class="thumbnail pull-left m-2" href="#"> 
-                                        <img class="media-object"
-                                            src="img/gormet.jpg"
-                                            style="width: 50px; height: 50px;"> </a>
-                                    <div class="media-body">
-                                        <h5 class="media-heading"><a href="#">Bracelet en or</a></h4>
-                                    </div>
+                <div class="products d-none d-sm-none d-md-none d-lg-block">
+                    <div class="row">
+                        <div class="col-6 text-dark">ARTICLE</div>
+                        <div class="col text-center text-dark">QUANTITÉ</div>
+                        <div class="text-center text-dark col">PRIX UNITAIRE</div>
+                        <div class="text-center text-dark col">SOUS TOTAL</div>
+                        <div class="text-center text-dark col"></div>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-start">
+                        <div class="col-6">
+                            <div class="media">
+                                <a class="thumbnail pull-left m-2" href="#"> 
+                                    <img class="media-object"
+                                        src="img/gormet.jpg"
+                                        style="width: 50px; height: 50px;"> </a>
+                                <div class="media-body">
+                                    <h5 class="media-heading"><a href="#">Bracelet en or</a></h4>
                                 </div>
-                            </td>
-                            <td class="col-sm-1 col-md-1" style="text-align: center">
-                                <select class="form-select" name="qte" id="qte">
-                                    <option value="1" selected>1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                            </td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
-                            <td class="col-sm-1 col-md-1">
-                                <button type="button" class="btn btn-danger">
-                                    <i class="fa fa-trash-o"></i>
-                                </button></td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-8 col-md-6">
-                                <div class="media">
-                                    <a class="thumbnail pull-left m-2" href="#"> 
-                                        <img class="media-object"
-                                            src="img/gormet.jpg"
-                                            style="width: 50px; height: 50px;"> </a>
-                                    <div class="media-body">
-                                        <h5 class="media-heading"><a href="#">Bracelet en or</a></h4>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <select class="form-select" name="qte" id="qte">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="text-center col"><strong>600 DH</strong></div>
+                        <div class="text-center col"><strong>600 DH</strong></div>
+                        <div class="text-center col">
+                            <button type="button" class="btn btn-danger">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="media">
+                                <a class="thumbnail pull-left m-2" href="#"> 
+                                    <img class="media-object"
+                                        src="img/gormet.jpg"
+                                        style="width: 50px; height: 50px;"> </a>
+                                <div class="media-body">
+                                    <h5 class="media-heading"><a href="#">Bracelet en or</a></h4>
                                 </div>
-                            </td>
-                            <td class="col-sm-1 col-md-1" style="text-align: center">
-                                <select class="form-select" name="qte" id="qte">
-                                    <option value="1" selected>1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                            </td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
-                            <td class="col-sm-1 col-md-1 text-center"><strong>600 DH</strong></td>
-                            <td class="col-sm-1 col-md-1">
-                                <button type="button" class="btn btn-danger">
-                                    <i class="fa fa-trash-o"></i>
-                                </button></td>
-                        </tr>
-                    </tbody>
-                </table>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <select class="form-select" name="qte" id="qte">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="text-center col"><strong>600 DH</strong></div>
+                        <div class="text-center col"><strong>600 DH</strong></div>
+                        <div class="text-center col">
+                            <button type="button" class="btn btn-danger">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-mobile d-block d-lg-none">
+                    <div class="card">
+                        <div class="card-horizontal">
+                                <img class="w-50 h-100" src="img/gormet.jpg"  alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-left">Bracelet en or</h4>
+                                <p class="card-text text-dark">PRIX UNITAIRE <strong> 600 DH</strong></p>
+                                <p class="card-text text-dark"><i> Sous-Total <strong> 600 DH</strong></i></p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-light">
+                            <div class="row">
+                                <div class="col-3">
+                                    <select class="form-select" name="qte" id="qte">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i> Supprimer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="row mt-2">
+                    <div class="col"></div>
+                    <div class="col-sm">
+                        <h2 class="text-right h5">Total produits: <span class="strong">1200 DH</span></h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col"></div>
-                    <div class="col">
-                        <h2>Total : <span class="strong">600 DH</span></h2>
+                    <div class="col-sm">
+                        <h2 class="text-right h5">Livraison: <span class="strong">30 DH</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-sm">
+                        <h2 class="text-right h4">Total: <span class="strong">1230 DH</span></h2>
                     </div>
                 </div>
                 <div class="row text-right">
-                    <div class="col">
-                        <button type="button" class="btn btn-warning">
+                    <div class="col-sm">
+                        <button type="button" class="btn btn-warning m-2">
                             <span class="glyphicon glyphicon-shopping-cart">Poursuivre vos achats</span> 
                         </button>
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success m-2">
                             <span class="glyphicon glyphicon-play">Valider la commande</span>
                         </button>
                     </div>
@@ -163,10 +205,10 @@
     </div>
 
 
-    <div class="mt-5 p-5 footer">
+    <div class="mt-5 p-5 footer ">
             <div class="row text-center">
                 <div class="col-lg-5 col-xs-12 about-company">
-                    <img src="img/footerlogo.png" alt="LOGO FOOTER">
+                    <img class="img-fluid" src="img/footerlogo.png" alt="LOGO FOOTER">
                     <p class=" text-white-50">Hadaya est un site e-commerce qui vent les cadeaux selon les différentes événements il facilite au client le choix de choisir le bon cadeau avec bon prix</p>
                 </div>
                 <div class="col-lg-2 col-xs-12 links text-lg-left text-sm-center">
@@ -197,9 +239,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-2">
                 <div class="col copyright text-center">
-                    <p ><small class="text-white-50">2020 - 2021 . Copyright © Hadaya by Loubna.</small></p>
+                    <p><small class="text-white-50">2020 - 2021 . Copyright © Hadaya by Loubna.</small></p>
                 </div>
             </div>
     </div>
@@ -210,3 +252,4 @@
     <script src="js/main.js"></script>
 
 </body>
+</html>
