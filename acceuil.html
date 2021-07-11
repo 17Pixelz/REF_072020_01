@@ -17,12 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Karla:wght@200&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Karla:wght@200&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/acceuil.css">
-   
-        <link rel="stylesheet" href="css/style copy.css">
+    <link rel="stylesheet" href="css/panier.css">
+    <link rel="stylesheet" href="css/style copy.css">
 </head>
 <body>
 
-<header>	
 
     <!--<div class="nav">
 
@@ -61,7 +60,7 @@
           </div>
         </form>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="fa fa-bars"></span> Menu
+	        <span class="fa fa-bars text-white"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
@@ -82,27 +81,25 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-</header>
 
 <div class="content mt-5">
-<div class="row">
-    <div class="text-home text-center col-lg-6 col-md-12 mt-5 ">
+<div class="row" id="container1">
+    <div class="text-home text-center col-lg-6 col-md-12 mt-5 " id="div1">
           <h2>Hadaya By Loubna</h2>
           <p>Meilleur cadeaux pour n'importe quel evenement <br> avec un prix resonnable et une très belle qualité<br> bon service avec un prix resonnable de livraison </p>
           <button name="submit" class="btn btn-primary" style="background-color: #CA2519;">Voir plus <a href=""></a></button>
      </div>
 
-     <div class="img-home col-lg-5 col-md-12 text-center">
+     <div class="img-home col-lg-5 col-md-12 text-center" id="div2">
          <img src="img/homegift.png" style="width: 320px;" alt="">
      </div>
 </div>
-<div class="row mt-2">
-  <div class="image-container text-center col-lg-5">
+<div class="row mt-2" id="container2">
+  <div class="image-container text-center col-lg-5 col-md-12" id="div3">
         <img class="img" src="img/photo3.png" style="width: 300px;" alt="">
   </div>
-  <div class="left-grp text-center col-lg-7"> 
+  <div class="left-grp text-center col-lg-7 col-md-12" id="div4"> 
     <h2> Souvenir </h2>
-    <div class=""></div>
     <p>Quidem supplicio haud autem quis
      quidem amicum excusatione <br>haud 
      mortem coepit concessum  mortem
@@ -143,10 +140,10 @@
 <h2>Nos évenements </h2>
 </div>
 
-<div class="container-fluid py-4 ">
-    <div class="row  ms-lg-0  ms-5 ms-md-5 justify-content-center d-flex">
+<div class="container-fluid ">
+    <div class="row justify-content-center">
 
-  <div class="col-lg-3 col-md-6 col-sm-12 ">
+  <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
     <div class="card">
       <div class="card-header text-center" style="background-color: #CA2519;">
         <h5 class="text-white">Marriage</h5>
@@ -159,7 +156,7 @@
        </div>
   </div>
 
-  <div class="col-lg-3 col-md-6 col-sm-12 ">
+  <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
     <div class="card">
       <div class="card-header text-center text-white" style="background-color: #CA2519;">
         <h5 class="text-white">Naissance</h5>
@@ -173,7 +170,7 @@
   </div>
 
 
-  <div class="col-lg-3 col-md-6 col-sm-12 ">
+  <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
     <div class="card">
       <div class="card-header text-center text-white" style="background-color: #CA2519;">
         <h5 class="text-white">Anniversaire</h5>
@@ -186,31 +183,80 @@
        </div>
   </div>
 </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+<div class="mt-5 p-5 footer">
+  <div class="row text-center">
+      <div class="col-lg-5 col-xs-12 about-company">
+          <img src="img/footerlogo.png" alt="LOGO FOOTER">
+          <p class="pr-5 text-white-50">Hadaya est un site e-commerce qui vent les cadeaux selon les différentes événements il facilite au client le choix de choisir le bon cadeau avec bon prix</p>
+      </div>
+      <div class="col-lg-2 col-xs-12 links text-left text-sm-center">
+          <h4 class="mt-lg-0 mt-sm-3 text-light">Produits</h4>
+          <ul class="m-0 p-0">
+              <li>- <a href="#">Chocolat</a></li>
+              <li>- <a href="#">Fleurs</a></li>
+              <li>- <a href="#">Jouets bébés</a></li>
+              <li>- <a href="#">Assecoires</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-2 col-xs-12 links text-left text-sm-center">
+          <h4 class="mt-lg-0 mt-sm-3 text-light">Pages</h4>
+          <ul class="m-0 p-0">
+              <li>- <a href="#">Acceuil</a></li>
+              <li>- <a href="#">Produits</a></li>
+              <li>- <a href="#">Evenements</a></li>
+              <li>- <a href="#">Contact</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-2 col-xs-12 location text-left text-sm-center ">
+          <h4 class="mt-lg-0 mt-sm-4 text-light">Contact</h4>
+          <ul class="list-unstyled">
+              <li><i class="fas fa-phone-square-alt pic mr-2"></i> +212+6 06 07 08 09</li>
+              <li><i class="fab fa-facebook-square pic mr-2"></i> Hadaya By Loubna</li>
+              <li><i class="fab fa-instagram-square pic mr-2"></i> Hadaya-ByLoubna</li>
+              <li><i class="fas fa-envelope-square pic mr-2"></i> HADAYA@gmail.com</li>
+          </ul>
+      </div>
+  </div>
+  <div class="row mt-5">
+      <div class="col copyright text-center">
+          <p class=""><small class="text-white-50">© 2021. Copyright © Hadaya by Loubna.</small></p>
+      </div>
+  </div>
+</div>
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-
-
-
-    
 </body>
 </html>
+<script>
+    $(document).ready(function(){
+      var div3content = document.getElementById('div3').innerHTML;
+      var div4content = document.getElementById('div4').innerHTML;
+      var w = $(window).width();
+      console.log(w);
+      if(w < 992){
+        $("#div3").empty();
+        $("#div3").append(div4content);
+        $("#div4").empty();
+        $("#div4").append(div3content);
+    }
+    $(window).resize(function(){
+      var width = $(window).width();
+      console.log(width);
+      if(width < 992){
+        $("#div3").empty();
+        $("#div3").append(div4content);
+        $("#div4").empty();
+        $("#div4").append(div3content);
+    }
+    else{
+      $("#div3").empty();
+      $("#div3").append(div3content);
+        $("#div4").empty();
+        $("#div4").append(div4content);
+    }
+    })
+});
+</script>
