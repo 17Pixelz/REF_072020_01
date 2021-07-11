@@ -22,10 +22,10 @@
   .perecadeau{
     width: 280px;
     margin-top: -40PX;
-   }
+   }  
 
    .couple{
-    width: 233px;
+    width: 220px;
     float: right;
    }
    .titre{
@@ -54,10 +54,7 @@
       width: 30vw;
   }
  
-  .filtre-genre{
-      margin-top: 37px;   
-      margin-left: 25px;
-  }
+
   
   h6{
       color: #CA2519;
@@ -71,26 +68,20 @@
       font-family: 'Montserrat', sans-serif;
   }
   
-  .filtre-categorie{
-      margin-top: 37px;
-      margin-left: 25px;
-  }
-  .filtre-prix{
-     margin-top: 37px;   
-     margin-left: 25px;
-  }
+  
+  
+  
   
   
   .page-produits{
-      margin-top: -38.5%;
-      margin-left: 17%;
+
       display: grid;
       grid-template-columns: auto auto auto auto;
       justify-content: center;
     }
   
      .produit {
-      margin: 18px;
+
       width: 220px;
       height: 309px;
       background-color: #FFFFFF;
@@ -190,10 +181,11 @@
   }
   
   .page-produits{
-    margin-top: -92%;
-    margin-left:36%;
+
     display: grid;
-    grid-template-columns: auto ;
+
+
+
     justify-content: center;
   }
   
@@ -213,6 +205,42 @@
     margin-left: -10%;
     margin-top: 0%;
 }
+.footer {
+  background: black;
+  color: white;
+}
+.footer {
+  background: black;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180cb;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #4180cb;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
 
 .bd-header h2{
   margin-top: -6%;

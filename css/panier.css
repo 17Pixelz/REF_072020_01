@@ -124,6 +124,9 @@ td .material-icons {
     flex: 1 1 auto;
 }
 
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
 
 /* responsive categorie a gauche --------------------------------*/
 

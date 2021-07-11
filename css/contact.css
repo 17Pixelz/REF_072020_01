@@ -9,6 +9,10 @@
       background-color:#FFFCFC;
   }
   
+  .center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
   
   .bd-header{
       background-color: #1D1C19;
@@ -99,16 +103,6 @@ form input {
     border-bottom: 2px solid rgba(0, 0, 0, .3);
 
 
-}
-
-form textarea {
-    width: 90%;
-    margin-left: 5%;
-    padding: 3%;
-    border: none;
-    resize: none;
-    outline: none;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
 }
 
 form input[type=submit] {
