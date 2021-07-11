@@ -14,36 +14,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-   
-    <div class="nav">
-        <div class="logo">
-            <img src="img/LOGO.png" class="img-fluid" alt="Responsive image">
-        </div>
-
-        <div class="nav-content">
-            <ul>
-                <li><a href="">Acceuil</a></li>
-                <li><a href="produit.html">Produits</a></li>
-                <li class="dropdown">
-                  <a href="" class="dropbtn">Evenements</a>
-                  <div class="dropdown-content">
-                    <a href="evenements.html">Mariage</a>
-                    <a href="naissance.html">Naissance</a>
-                    <a href="anniversaire.html">Anniversaire</a>
-                  </div>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-                <div class="nav-icone">
-                  <li><a href="panier.html"><i class="material-icons">shopping_cart</i></a></li>
-                  <li><a href="connexion.html"><i class="material-icons">person</i></a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	    	<a class="navbar-brand" href="index.html">   <img src="img/LOGO.png" alt="this is a logo" style="width: 100px;"></a>
+	    	
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars text-white"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav m-auto">
+	        	<li class="nav-item active"><a href="#" class="nav-link">Acceuil</a></li>
+	        	<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evenements</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="#">Marriage</a>
+                <a class="dropdown-item" href="#">Anniversaire</a>
+                <a class="dropdown-item" href="#">Naissance</a>
               </div>
-            </ul>    
-        </div>
-    </div>         
-
-
-</header>
+            </li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="" class="nav-link"><i class="material-icons">shopping_cart</i></a></li>
+            <li class="nav-item"><a href="" class="nav-link"><i class="material-icons">person</i></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
 
 <div class="bd-header">
     <div class="img1">
@@ -90,13 +85,7 @@
                 
             </form>
         </div>
-        <div class="right">
-            <div class="col-md-12">
-                <div class="content">
-                    <img src="img/cadeau.png" class="rounded float-right" alt="">
-                </div>
-            </div>
-        </div>
+        
     </div>
 
 
